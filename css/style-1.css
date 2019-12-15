@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Cormorant+Garamond|Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Play&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Play|Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hidden-list {
+    /* display: none; */
+    margin-left: 815px;
+    margin-top: 0;
+    list-style: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden-list li a {
+  color: rgb(12, 12, 105);
+}
+
+/* HEADER */
+
+.header {
+    min-width: 100%;
+    height: 55px;
+    background-color: rgb(240, 238, 238);
+    position: fixed;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    top: 0;
+    background-image: url(fon.jpg);
+    
+}
+
+/* .header-logo {
+    float: left;
+} */
+
+.header-logo img {
+    height: 50px;
+    margin-left: 30px;
+    /* margin-right: 300px; */
+}
+
+.header-list {
+    margin-top: -15px;
+    
+}
+
+
+
+.header-list li:not(:last-child) {
+    list-style: none;
+    float: left;
+    margin-left: 200px;
+    
+}
+
+.header-list li:first-child {
+    margin-left: 550px;
+}
+
+.header-list li:last-child {
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+}
+
+.header-list::after {
+    display: table;
+    content: '';
+    clear: both;
+    
+}
+
+.header-list li:hover {
+    color: rgb(169, 146, 196);
+}
+
+ul {
+    color: rgb(12, 12, 105);
+}
+
+
+/* MAIN */
+
+
+.main {
+    margin-top: 55px;
+}
+
+.block-1 {
+    /* border: 10px solid black; */
+    height: 300px;
+
+}
+
+.block-1 img {
+    width: 1200px;
+    display:block;
+    margin:auto;
+    margin-top: 80px;
+}
+
+.block-2 {
+    width: 99;
+    display:block;
+    margin:auto;
+    margin-top: 0px;
+    /* border: 10px solid black; */
+    height: 100px;
+    background-color: rgb(131, 131, 150);
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+}
+
+.middle {
+    height: 1100px; 
+    /* border: 10px solid rgb(192, 188, 231); */
+    background: url(../img/rr.jpg) no-repeat;
+    background-size: auto;
+    background-attachment: scroll;
+    margin-bottom: 60px;
+    background-size: auto;
+    background-attachment: fixed;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Play', sans-serif;
+}
+
+.middle img {
+    width: 400px;
+    margin-top:220px;
+    margin-left: 300px;
+}
+
+h1 {
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+.middle h2,
+.end-1 h2 {
+    font-size: 50px;
+}
+
+.end-2 h3 {
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+.c-middle {
+    margin-bottom: 500px;
+}
+
+.item1 {
+    height: 400px;
+    background: url(../img/2.1.jpg) no-repeat;
+    /* background-position: -500px 20px; */
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+    margin-left: 35px;
+}
+
+.item2 {
+    height: 400px;
+    background: url(../img/горы.jpg) no-repeat;
+    background-size: contain;
+    padding: 0;
+    margin: 0;
+}
+
+.item3 {
+    height: 400px;
+    background: url(../img/wolf.jpg) no-repeat;
+    background-size: contain; 
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    width: 32%;
+    float: left;
+}
+
+.end {
+    /* border: 10px solid green; */
+    height: 1500px;
+    background-color: rgb(245, 243, 243);
+    /* background: url(../img/fon.jpg) no-repeat;
+    background-size: auto;
+    background-attachment: fixed; */
+    color: rgb(12, 12, 105);
+}
+
+.end-1 {
+    height: 250px; 
+    width: 100%;
+    /* border: 10px solid rgb(192, 188, 231); */
+    background: url(../img/bai.jpg) no-repeat;
+    text-align: center;
+    margin-bottom: 35px;
+    background-size: auto;
+    background-attachment: scroll;
+    margin-bottom: 60px;
+    background-size: auto;
+    font-family: 'Playfair Display', serif;
+    color: rgb(12, 12, 105);
+}
+
+.end-1 img {
+    width: 400px;
+    margin-top:220px;
+    margin-left: 300px;
+}
+
+.end-2 {
+    height: 280px; 
+    width: 100%;
+    margin-bottom: 35px;
+    background: url(../img/qq.JPG) no-repeat;
+    /* background-attachment: fixed; */
+    color: rgb(199, 182, 135);
+}
+
+.the-end {
+    height: 250px;
+    /* border: 10px solid rgb(0, 0, 0); */
+    width: 900px;
+    margin:auto;
+    margin-top: 150px;
+    background-color: white;
+}
+
+.the-end img {
+    height: 250px;
+    float: left;
+}
+
+.the-end__item {
+    width: 100%;
+    height: 100%;
+    border: 0.1px solid black;
+    box-sizing: border-box;
+}
+
+.the-end__item h2 {
+    margin-top: 40px;
+    margin-left: 325px;
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 25px;
+}
+.the-end__item p {
+    margin-top: 0px;
+    margin-left: 350px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.line {
+    margin-top: 250px;
+    height: 20px;   
+}
+
+hr {
+    width: 30%;
+    margin-top: 20px;
+    float: left;
+    display: inline-block;
+}
+
+.hr-1 {
+    margin-left: 325px;
+    margin-right: 40px;
+}
+
+.hr-2 {
+    float: left;
+}
+
+.dadj {
+    padding: 0;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    bottom: 16px;
+    right: 599px;
+    font-size: 40px;
+}
+
+/* .banner {
+    height: 250px;
+    border: 10px solid black;
+} */
+
+
+
+/* FOOTER */
+
+
+.footer {
+    height: 740px;
+    /* border: 5px solid red; */
+}
+
+.the-endd {
+margin: 20px;
+margin-left: 550px;
+color: rgb(12, 12, 105);
+font-family: 'Caveat', cursive;
+font-size: 22px;
+}
+
+.the-endd img {
+    position: relative;
+    bottom: 360px;
+    left: 450px;
+}
+/* .ris {
+    background: url(../img/ris.JPG) no-repeat;
+    float: right;
+    
+    position: relative;
+    left: 1500px;
+    border: 5px solid green;
+    height: 200px;
+    width: 250px;
+} */
+
+.ris-2 {
+    background: url(../img/ris-2.JPG) no-repeat;
+    position: relative;
+    left: 450px;
+    /* border: 5px solid green; */
+    height: 352px;
+    width: 1160px;
+    bottom: 250px;
+}
+
+a {
+    text-decoration: none;
+}
+
+

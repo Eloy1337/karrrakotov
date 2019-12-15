@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Cormorant+Garamond|Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Play&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Play|Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hidden-list {
+    /* display: none; */
+    margin-left: 815px;
+    margin-top: 0;
+    list-style: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden-list li a {
+  color: rgb(12, 12, 105);
+}
+
+/* HEADER */
+
+.header {
+    min-width: 100%;
+    height: 55px;
+    background-color: rgb(240, 238, 238);
+    position: fixed;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: 'Caveat', cursive;
+    top: 0;
+    background-image: url(fon.jpg);
+    
+}
+
+/* .header-logo {
+    float: left;
+} */
+
+.header-logo img {
+    height: 50px;
+    margin-left: 30px;
+    /* margin-right: 300px; */
+}
+
+.header-list {
+    margin-top: -15px;
+    
+}
+
+
+
+.header-list li:not(:last-child) {
+    list-style: none;
+    float: left;
+    margin-left: 200px;
+    
+}
+
+.header-list li:first-child {
+    margin-left: 550px;
+}
+
+.header-list li:last-child {
+    list-style: none;
+    float: right;
+    margin-right: 30px;
+}
+
+.header-list::after {
+    display: table;
+    content: '';
+    clear: both;
+    
+}
+
+.header-list li:hover {
+    color: rgb(169, 146, 196);
+}
+
+ul {
+    color: rgb(12, 12, 105);
+}

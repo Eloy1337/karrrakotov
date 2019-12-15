@@ -1,0 +1,133 @@
+/* MAIN */
+
+
+.main {
+    margin-top: 55px;
+}
+
+.block-1 {
+    /* border: 10px solid black; */
+    height: 350px;
+
+}
+
+.block-1 img {
+    width: 1200px;
+    display:block;
+    margin:auto;
+    margin-top: 80px;
+}
+
+.block-2 {
+    width: 99;
+    display:block;
+    margin:auto;
+    margin-top: 0px;
+    /* border: 10px solid black; */
+    height: 100px;
+    background-color: rgb(223, 216, 209);
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+}
+
+.middle {
+    height: 600px; 
+    /* border: 10px solid rgb(192, 188, 231); */
+    background: url(../img/stt.jfif) no-repeat;
+    /* background-size: auto; */
+    background-attachment: scroll;
+    margin-bottom: 60px;
+    background-size: auto;
+    background-attachment: fixed;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: 'Play', sans-serif;
+}
+
+.middle img {
+    width: 100%;
+    /* margin-top:220px;
+    margin-left: 300px; */
+}
+
+h1 {
+    margin-left: 200px;
+    font-size: 50px;
+}
+
+.middle h2,
+.end-1 h2 {
+    font-size: 50px;
+}
+
+.end-2 h3 {
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    width: 1000px;
+    margin: auto;
+    color: black;
+}
+
+.zag {
+    color: rgb(12, 12, 105);
+    /* text-align: center;
+    margin: auto; */
+    margin-left: 225px;
+}
+
+.foto {
+    background: url(../img/ww.jpg) no-repeat;
+    height: 600px;
+}
+
+
+.zag-2 {
+    margin-left: 225px;
+    color: rgb(12, 12, 105);
+}
+
+.foto-2 {
+    background: url(../img/aaaa.jpg) no-repeat;
+    height: 700px;
+    width:1920px;
+    position: relative;
+    right: 450px;
+    /* background-position: 0px -150px; */
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+.foto-2 img {
+    height: 1080px;
+    width:1920px;
+}
+
+
+
+.zag-3 {
+    margin-left: 185px;
+    color: rgb(12, 12, 105);
+}
+
+.foto-3 {
+    background: url(../img/win.jpg) no-repeat;
+    height: 700px;
+    width:1920px;
+    position: relative;
+    right: 650px;
+    /* background-position: 0px -150px; */
+    background-size: auto;
+    background-attachment: fixed;
+}

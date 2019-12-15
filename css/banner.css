@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Caveat|Cormorant+Garamond|Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Play&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald|Play|Playfair+Display&display=swap');
+
+
+.banner {
+    height: 250px;
+    background-color: rgb(189, 187, 187);
+    overflow: hidden;
+    width: 80%;
+    margin-left: 220px;
+    margin-top: 80px;
+}
+
+.slide-box {
+    height: 900px;
+    animation: slider 12s linear alternate infinite;
+    position: relative;
+}
+
+.slide {
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.slide1 {
+    background: url(../img/дал.JPG) no-repeat 0 0;
+    background-size: contain;
+}
+
+.slide2 {
+    background: url(../img/max.jpg) no-repeat 0 -275px;
+    background-size: cover;
+    
+}
+
+.slide3 {
+    background: url(../img/aslan.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+
+@keyframes slider {
+    0% {
+        top: 0;
+    }
+
+    20% {
+        top: 0
+    }
+
+    25% {
+        top: -300px;
+    }
+
+    70% {
+        top: -300px;
+    }
+
+    75% {
+        top: -600px;
+    }
+
+    100% {
+        top: -600px;
+    }
+}
+
+.slide1 h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    background-size: auto;
+    background-attachment: scroll;
+    margin-bottom: 60px;
+    background-size: auto;
+    font-family: 'Playfair Display', serif;
+    color: rgb(12, 12, 105);
+    margin: 0;
+    padding-top: 30px;
+}
+
+.slide2 h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(185, 150, 177);
+    letter-spacing: 5px;
+    font-size: 65px;
+    text-align: left;
+    padding-left: 450px;
+    padding-top: 90px;
+    float: left;
+}
+
+.slide2 h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(185, 150, 177);
+    letter-spacing: 5px;
+    font-size: 65px;
+    text-align: right;
+    padding-right: 450px;
+    padding-top: 90px;
+    float: right;
+}
+
+.slide3 h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(97, 97, 97);
+    letter-spacing: 5px;
+    font-size: 65px;
+    text-align: right;
+    padding-right: 600px;
+    padding-top: 90px;
+    float: right;
+}
+
+/* .slide3 h1:first-child {
+    float: left;
+    padding-left: 150px;
+}
+
+.slide3 h1:last-child {
+    float: right;
+    padding-right: 180px;
+} */

@@ -1,0 +1,69 @@
+/* MAIN */
+
+
+.main {
+    margin-top: 55px;
+}
+
+.block-1 {
+    /* border: 10px solid black; */
+    height: 350px;
+
+}
+
+.block-1 img {
+    width: 1200px;
+    display:block;
+    margin:auto;
+    margin-top: 80px;
+}
+
+.block-2 {
+    width: 99;
+    display:block;
+    margin:auto;
+    margin-top: 0px;
+    /* border: 10px solid black; */
+    height: 100px;
+    background-color: rgb(83, 60, 121);
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+}
+
+.middle {
+    height: 600px; 
+    /* border: 10px solid rgb(192, 188, 231); */
+    background: url(../img/rus.jpg) no-repeat;
+    /* background-size: auto; */
+    background-attachment: scroll;
+    margin-bottom: 60px;
+    background-size: auto;
+    background-attachment: fixed;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-family: 'Play', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.put {
+    height: 800px;
+    background: url(../img/map.JPG) no-repeat;
+    margin-left: 60px;
+}
+
+.put p {
+    text-align: left;
+    margin-left: 1000px;
+    line-height: 7px;
+    font-size: 25px;
+}
+
+.wss {
+    padding-top: 200px;
+}

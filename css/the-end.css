@@ -1,0 +1,41 @@
+/* FOOTER */
+
+
+.footer {
+    height: 740px;
+    /* border: 5px solid red; */
+}
+
+.the-endd {
+margin: 20px;
+margin-left: 550px;
+color: rgb(12, 12, 105);
+font-family: 'Caveat', cursive;
+font-size: 22px;
+}
+
+.the-endd img {
+    position: relative;
+    bottom: 360px;
+    left: 450px;
+}
+/* .ris {
+    background: url(../img/ris.JPG) no-repeat;
+    float: right;
+    
+    position: relative;
+    left: 1500px;
+    border: 5px solid green;
+    height: 200px;
+    width: 250px;
+} */
+
+.ris-2 {
+    background: url(../img/ris-2.JPG) no-repeat;
+    position: relative;
+    left: 450px;
+    /* border: 5px solid green; */
+    height: 352px;
+    width: 1160px;
+    bottom: 250px;
+}
